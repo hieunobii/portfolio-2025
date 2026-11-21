@@ -1554,8 +1554,10 @@ input[type="text"],
     transition: all 0.3s ease-in-out;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .portfolio-grid figure:hover img {
     transform: scale(1.1);
+}
 }
 
 .portfolio-grid figure a {
@@ -2953,4 +2955,15 @@ blockquote {
     margin: 0;
     line-height: 1;
     border: none;
+}
+/* Keep tall website screenshots compact in the portfolio grid. */
+.portfolio-grid img.portfolio-preview {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Decorative overlays must never intercept taps on the image link. */
+.portfolio-grid figure .portfolio-item-img:after {
+    pointer-events: none;
 }
