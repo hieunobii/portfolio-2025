@@ -1,101 +1,38 @@
-<!DOCTYPE html>
-<!-- This website was developed by Hieudm -->
-<html lang="vi-VN">
-
+﻿<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hieudm's Portfolio</title>
-    <link rel="icon" href="img/favicon.png">
-    <meta property="og:title" content="Hieudm's Portfolio">
-    <meta property="og:image"
-        content="img/cover.jpg">
-    <meta property="og:description" content="This is Hieudmʼs Portfolio Page">
-    <meta property="og:url" content="https://hieudm-portfolio.glitch.me/">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="675">
-    <meta property="og:type" content="website">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
-
-    <link rel="stylesheet" href="reset.css" type="text/css">
-    <link rel="stylesheet" href="bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="animations.css" type="text/css">
-    <link rel="stylesheet" href="perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="hieudm-popup.css" type="text/css">
-    <link rel="stylesheet" href="main.css" type="text/css">
-
-    <script src="hieudm.custom.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080e1d">
+<meta name="description" content="Hieu Minh Duong — UI/UX designer and frontend developer in Hanoi. Explore selected websites, landing pages and graphic design work.">
+<meta property="og:title" content="Hieu Minh Duong — Design & Code">
+<meta property="og:description" content="Thoughtful design. Precise development. Explore my digital portfolio.">
+<meta property="og:image" content="img/cover.jpg">
+<meta property="og:type" content="website">
+<title>Hieu Minh Duong — Design & Code</title>
+<link rel="icon" href="img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="main.css">
+<script src="i18n.js" defer></script>
+<script src="sphere.js" defer></script>
+<script src="main.js" defer></script>
 </head>
-
 <body>
-    <!-- Animated Background -->
-    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-    <!-- /Animated Background -->
-
-    <!-- Loading animation -->
-    <div class="preloader">
-        <div class="preloader-animation">
-            <div class="preloader-spinner">
-            </div>
-        </div>
-    </div>
-    <!-- /Loading animation -->
-
-    <div class="page">
-        <div class="page-content">
-
-            <header id="site_header" class="header mobile-menu-hide">
-                <div class="header-content">
-                    <div class="header-photo">
-                        <img src="img/ava2026.png" alt="Hieudm">
-                    </div>
-                    <div class="header-titles">
-                        <h2>Hieu Minh Duong</h2>
-                        <h4>Designer Engineer</h4>
-                    </div>
-                </div>
-
-                <ul class="main-menu">
-                    <li class="active">
-                        <a href="#home" class="nav-anim">
-                            <i class="fal fa-home menu-icon lnr lnr-home"></i>
-                            <span class="link-text">Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about-me" class="nav-anim">
-                            <i class="fal fa-user-tie menu-icon lnr lnr-user"></i>
-                            <span class="link-text">About Me</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#resume" class="nav-anim">
-                            <i class="fal fa-briefcase menu-icon lnr lnr-graduation-hat"></i>
-                            <span class="link-text">Resume</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="nav-anim">
-                            <i class="fal fa-tasks menu-icon lnr lnr-briefcase"></i>
-                            <span class="link-text">Portfolio</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="nav-anim">
-                            <i class="fal fa-address-book menu-icon lnr lnr-envelope"></i>
-                            <span class="link-text">Contact</span>
-                        </a>
-                    </li>
-                </ul>
-
-                <div class="social-links">
-                    <ul>
-                        <li><a href="https://www.facebook.com/DuongMinhHieuu" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.instagram.com/hieunobii" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://zalo.me/0388814544" target="_blank">
-                                <svg fill="white" width="18" height="18" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 456.000000 434.000000">
+<svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol>
+<symbol id="i-work" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="3"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12a24 24 0 0 0 18 0m-9 0v4"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 7 9 6 9-6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 3l-4 18"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 10 6-10 6L2 9Zm-10 12 10 6 10-6M2 15l10 6 10-6"/></symbol>
+<symbol id="i-pen" viewBox="0 0 24 24"><path d="m14 4 6 6M3 21l5-1L21 7a2 2 0 0 0-4-4L4 16Zm1-5 4 4"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="i-zalo" viewBox="0 0 456 434">
                                     <g transform="translate(0.000000,434.000000) scale(0.100000,-0.100000)">
                                         <path
                                             d="M440 4324 c-167 -45 -322 -180 -402 -349 l-33 -70 0 -1735 0 -1735 46 -96 c59 -122 148 -215 261 -272 146 -72 -20 -67 1969 -67 1792 0 1796 0 1860 21 188 61 345 212 398 383 20 64 21 90 21 448 l0 380 -82 -78 c-306 -288 -714 -494 -1153 -583 -172 -34 -294 -45 -500 -45 -293 1 -509 35 -790 126 -128 41 -130 41 -200 29 -38 -6 -115 -25 -170 -42 -322 -100 -515 -129 -710 -111 -137 14 -165 20 -165 36 1 6 40 36 88 66 107 68 265 223 306 300 29 58 46 155 30 183 -5 8 -52 60 -104 115 -132 138 -202 227 -282 357 -350 578 -379 1264 -76 1855 32 63 75 140 96 171 70 106 90 134 108 156 11 11 35 41 54 65 50 62 195 206 265 264 33 27 62 51 65 54 22 22 247 170 258 170 6 0 14 5 17 10 4 7 -184 10 -557 9 -463 0 -573 -3 -618 -15z">
@@ -113,1025 +50,657 @@
                                             d="M3670 2819 c-68 -22 -89 -35 -157 -100 -130 -123 -163 -360 -72 -531 23 -43 83 -110 126 -139 100 -69 252 -91 379 -54 227 66 347 328 263 572 -36 107 -109 185 -219 237 -87 41 -220 47 -320 15z m239 -239 c92 -65 101 -248 17 -331 -79 -79 -222 -48 -267 58 -43 100 -9 235 69 282 50 29 134 25 181 -9z">
                                         </path>
                                     </g>
-                                </svg>
-                            </a></li>
-                    </ul>
-                </div>
-
-                <div class="header-buttons">
-                    <a href="img/CV-DMH-2026.pdf"
-                        target="_blank" class="btn btn-primary">Download CV</a>
-                </div>
-
-                <div class="copyrights">© 2025 Hieudm All rights reserved.</div>
-            </header>
-
-            <!-- Mobile Navigation -->
-            <div class="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <!-- End Mobile Navigation -->
-
-            <!-- Arrows Nav -->
-            <div class="lmpixels-arrows-nav">
-                <div class="lmpixels-arrow-right"><i class="fal fa-chevron-right"></i></div>
-                <div class="lmpixels-arrow-left"><i class="fal fa-chevron-left"></i></div>
-            </div>
-            <!-- End Arrows Nav -->
-
-            <div class="content-area">
-                <div class="animated-sections">
-                    <!-- Home Subpage -->
-                    <section data-id="home" class="animated-section start-page">
-                        <div class="section-content vcentered">
-
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-12">
-                                    <div class="title-block">
-                                        <h2>Hieu Minh Duong</h2>
-                                        <div class="owl-carousel text-rotation">
-                                            <div class="item">
-                                                <div class="sp-subtitle">Ui/ux Designer</div>
-                                            </div>
-
-                                            <div class="item">
-                                                <div class="sp-subtitle">Frontend Developer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-                    <!-- End of Home Subpage -->
-
-                    <!-- About Me Subpage -->
-                    <section data-id="about-me" class="animated-section">
-                        <div class="page-title">
-                            <h2>About <span>Me</span></h2>
-                        </div>
-
-                        <div class="section-content">
-                            <!-- Personal Information -->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-7">
-                                    <p>Hello, dear recruiter. My name is Hieu. I have experience as a graphics designer,
-                                        the thinking ability of a UI/UX designer, the skills to code pixel-perfect
-                                        interfaces as a frontend developer, and I have been passionately working in this
-                                        field for 5 years. I hope the recruiter can contact me, my contact information
-                                        is clearly stated in the "Contact" section.</p>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-5">
-                                    <div class="info-list">
-                                        <ul>
-                                            <li>
-                                                <span class="title">Age</span>
-                                                <span class="value">28 (1996)</span>
-                                            </li>
-
-                                            <li>
-                                                <span class="title">Country</span>
-                                                <span class="value">Vietnam, Hanoi</span>
-                                            </li>
-
-                                            <li>
-                                                <span class="title">Address</span>
-                                                <span class="value">99/110 Dinh Cong Ha Street, Hoang Mai
-                                                    District</span>
-                                            </li>
-
-                                            <li>
-                                                <span class="title">E-mail</span>
-                                                <span class="value"><a href="mailto:hieunobii2809@gmail.com"
-                                                        class="__cf_email__">hieunobii2809@gmail.com</a></span>
-                                            </li>
-
-                                            <li>
-                                                <span class="title">Phone</span>
-                                                <span class="value">+84 3888 14544</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Personal Information -->
-
-                            <div class="white-space-50"></div>
-
-                            <!-- Services -->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <div class="block-title">
-                                        <h3>What <span>I Do</span></h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6">
-                                    <div class="col-inner">
-                                        <div class="info-list-w-icon">
-                                            <div class="info-block-w-icon">
-                                                <div class="ci-icon">
-                                                    <i class="fal fa-palette"></i>
-                                                </div>
-                                                <div class="ci-text">
-                                                    <h4>Graphic Design</h4>
-                                                    <p>Design 2D e-commerce banners, design brand logos, handle and edit
-                                                        images, product images at a proficient level, and create short
-                                                        graphic advertisement videos for digital platforms.</p>
-                                                </div>
-                                            </div>
-                                            <div class="info-block-w-icon">
-                                                <div class="ci-icon">
-                                                    <i class="fal fa-pencil-ruler"></i>
-                                                </div>
-                                                <div class="ci-text">
-                                                    <h4>UI/UX Design</h4>
-                                                    <p>Design websites, landing pages, and apps using tools like Figma
-                                                        or Adobe XD, with a modern design mindset, always prioritizing
-                                                        user experience when creating designs.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6">
-                                    <div class="col-inner">
-                                        <div class="info-list-w-icon">
-                                            <div class="info-block-w-icon">
-                                                <div class="ci-icon">
-                                                    <i class="fal fa-shapes"></i>
-                                                </div>
-                                                <div class="ci-text">
-                                                    <h4>Landing Page Design</h4>
-                                                    <p>Build layout landing pages using various platforms such as:
-                                                        Ladipage, 1Landing, Wordpress Flatsome/Elementor, as well as
-                                                        coding pure responsive interfaces.</p>
-                                                </div>
-                                            </div>
-                                            <div class="info-block-w-icon">
-                                                <div class="ci-icon">
-                                                    <i class="fal fa-laptop-code"></i>
-                                                </div>
-                                                <div class="ci-text">
-                                                    <h4>Frontend Developer</h4>
-                                                    <p>Design from service models and introductions to sales models
-                                                        according to requirements, ensuring pixel-perfect accuracy
-                                                        compared to the design draft. Primary languages used include
-                                                        HTML, CSS, JavaScript, and jQuery.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Services -->
-
-                            <div class="white-space-30"></div>
-
-                            <!-- Testimonials -->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <div class="block-title">
-                                        <h3>Testimonials</h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <div class="testimonials owl-carousel">
-                                        <!-- Testimonial 1 -->
-                                        <div class="testimonial">
-                                            <div class="img">
-                                                <img src="img/testimonials/testimonial-1.jpg" alt="Hieudm">
-                                            </div>
-                                            <div class="text">
-                                                <p>"Hieu is always ready to take on tasks beyond his position when
-                                                    necessary, consistently delivering work that exceeds expectations."
-                                                </p>
-                                            </div>
-
-                                            <div class="author-info">
-                                                <h4 class="author">Vinh Nguyen</h4>
-                                                <h5 class="company">Project Manager</h5>
-                                                <div class="icon">
-                                                    <i class="fas fa-quote-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End of Testimonial 1 -->
-
-                                        <!-- Testimonial 2 -->
-                                        <div class="testimonial">
-                                            <div class="img">
-                                                <img src="img/testimonials/testimonial-2.jpg" alt="Hieudm">
-                                            </div>
-                                            <div class="text">
-                                                <p>"Hieu works very hard and takes the initiative to learn new knowledge
-                                                    outside of working hours. I highly appreciate Hieu's creativity."
-                                                </p>
-                                            </div>
-
-                                            <div class="author-info">
-                                                <h4 class="author">Ngoc Vu</h4>
-                                                <h5 class="company">Project Leader</h5>
-                                                <div class="icon">
-                                                    <i class="fas fa-quote-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End of Testimonial 2 -->
-
-                                        <!-- Testimonial 3 -->
-                                        <div class="testimonial">
-                                            <div class="img">
-                                                <img src="img/testimonials/testimonial-3.jpg" alt="Hieudm">
-                                            </div>
-                                            <div class="text">
-                                                <p>"Exhibits a professional work attitude, does not avoid
-                                                    responsibility, and is always willing to assist and share experience
-                                                    with colleagues."</p>
-                                            </div>
-
-                                            <div class="author-info">
-                                                <h4 class="author">Bao Hoang</h4>
-                                                <h5 class="company">Company CEO</h5>
-                                                <div class="icon">
-                                                    <i class="fas fa-quote-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End of Testimonial 3 -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Testimonials -->
-
-                            <div class="white-space-50"></div>
-
-                            <!-- Clients -->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <div class="block-title">
-                                        <h3>Cilents</h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <div class="clients owl-carousel">
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Logo">
-                                                <img src="img/clients/client-1.webp" alt="Logo">
-                                            </a>
-                                        </div>
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Hieudm">
-                                                <img src="img/clients/client-2.webp" alt="Hieudm">
-                                            </a>
-                                        </div>
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Hieudm">
-                                                <img src="img/clients/client-3.webp" alt="Hieudm">
-                                            </a>
-                                        </div>
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Hieudm">
-                                                <img src="img/clients/client-4.webp" alt="Hieudm">
-                                            </a>
-                                        </div>
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Hieudm">
-                                                <img src="img/clients/client-5.webp" alt="Hieudm">
-                                            </a>
-                                        </div>
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Hieudm">
-                                                <img src="img/clients/client-6.webp" alt="Hieudm">
-                                            </a>
-                                        </div>
-
-                                        <div class="client-block">
-                                            <a href="#" target="_blank" title="Hieudm">
-                                                <img src="img/clients/client-7.webp" alt="Hieudm">
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Clients -->
-
-                            <div class="white-space-50"></div>
-
-                            <!-- Fun Facts -->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-
-                                    <div class="block-title">
-                                        <h3>Fun <span>Facts</span></h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-4">
-                                    <div class="fun-fact gray-default">
-                                        <i class="lnr lnr-heart"></i>
-                                        <h4>Happy Clients</h4>
-                                        <span class="fun-fact-block-value">120+</span>
-                                        <span class="fun-fact-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-4">
-                                    <div class="fun-fact gray-default">
-                                        <i class="lnr lnr-clock"></i>
-                                        <h4>Experience Years</h4>
-                                        <span class="fun-fact-block-value">5</span>
-                                        <span class="fun-fact-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-4 ">
-                                    <div class="fun-fact gray-default">
-                                        <i class="lnr lnr-star"></i>
-                                        <h4>Awards Won</h4>
-                                        <span class="fun-fact-block-value">7</span>
-                                        <span class="fun-fact-block-text"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Fun Facts -->
-
-                        </div>
-                    </section>
-                    <!-- End of About Me Subpage -->
-
-                    <!-- Resume Subpage -->
-                    <section data-id="resume" class="animated-section">
-                        <div class="page-title">
-                            <h2>Resume</h2>
-                        </div>
-
-                        <div class="section-content">
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-7">
-
-                                    <div class="block-title">
-                                        <h3>Education</h3>
-                                    </div>
-
-                                    <div class="timeline timeline-second-style clearfix">
-                                        <div class="timeline-item clearfix">
-                                            <div class="left-part">
-                                                <h5 class="item-period">2012-2015</h5>
-                                                <span class="item-company">Dong Da High School - Hanoi</span>
-                                            </div>
-                                            <div class="divider"></div>
-                                            <div class="right-part">
-                                                <h4 class="item-title">Student</h4>
-                                                <p>An excellent student in computer science and mathematics, who has won
-                                                    awards in the city's math competition.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="timeline-item clearfix">
-                                            <div class="left-part">
-                                                <h5 class="item-period">2015-2019</h5>
-                                                <span class="item-company">Hanoi Open University</span>
-                                            </div>
-                                            <div class="divider"></div>
-                                            <div class="right-part">
-                                                <h4 class="item-title">Finance Bachelor</h4>
-                                                <p>A distinguished student actively participating in scientific research
-                                                    programs and voluntary blood donation activities.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="white-space-50"></div>
-
-                                    <div class="block-title">
-                                        <h3>Experience</h3>
-                                    </div>
-
-                                    <div class="timeline timeline-second-style clearfix">
-                                        <div class="timeline-item clearfix">
-                                            <div class="left-part">
-                                                <h5 class="item-period">7/2023 - Current</h5>
-                                                <span class="item-company">Ecomcare</span>
-                                            </div>
-                                            <div class="divider"></div>
-                                            <div class="right-part">
-                                                <h4 class="item-title">Landing, Frontend Developer</h4>
-                                                <p>Design a theme repository of interfaces for websites and landing
-                                                    pages, and also undertook projects to customize website interfaces.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="timeline-item clearfix">
-                                            <div class="left-part">
-                                                <h5 class="item-period">6/2022 - 7/2023</h5>
-                                                <span class="item-company">Ezisolutions</span>
-                                            </div>
-                                            <div class="divider"></div>
-                                            <div class="right-part">
-                                                <h4 class="item-title">Design 2D, Frontend Dev</h4>
-                                                <p>Design campaign banners, code interfaces by using Html, Css,
-                                                    Javascript for both my company and its clients.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="timeline-item clearfix">
-                                            <div class="left-part">
-                                                <h5 class="item-period">1/2021 - 6/2022</h5>
-                                                <span class="item-company">Omnidigital</span>
-                                            </div>
-                                            <div class="divider"></div>
-                                            <div class="right-part">
-                                                <h4 class="item-title">Landing, Web Design</h4>
-                                                <p>Design drag-and-drop landing pages and layouts for websites and
-                                                    landing pages. Additionally, I create campaign banners for clients.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="timeline-item clearfix">
-                                            <div class="left-part">
-                                                <h5 class="item-period">12/2018 - 1/2021</h5>
-                                                <span class="item-company">Nhanh.vn (Momo)</span>
-                                            </div>
-                                            <div class="divider"></div>
-                                            <div class="right-part">
-                                                <h4 class="item-title">Graphic, Ui Designer</h4>
-                                                <p>Design brand logos, campaign banners, landing page interfaces, and
-                                                    website interfaces across various digital platforms.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- Skills & Certificates -->
-                                <div class="col-xs-12 col-sm-5">
-                                    <!-- Design Skills -->
-                                    <div class="block-title">
-                                        <h3>Design <span>Skills</span></h3>
-                                    </div>
-
-                                    <div class="skills-info skills-second-style">
-                                        <!-- Skill 1 -->
-                                        <div class="skill clearfix">
-                                            <h4>Ui/Ux Design</h4>
-                                            <div class="skill-value">95%</div>
-                                        </div>
-                                        <div class="skill-container skill-1">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 1 -->
-
-                                        <!-- Skill 2 -->
-                                        <div class="skill clearfix">
-                                            <h4>Landing Page Design</h4>
-                                            <div class="skill-value">100%</div>
-                                        </div>
-                                        <div class="skill-container skill-2">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 2 -->
-
-                                        <!-- Skill 3 -->
-                                        <div class="skill clearfix">
-                                            <h4>Logo Design</h4>
-                                            <div class="skill-value">80%</div>
-                                        </div>
-                                        <div class="skill-container skill-3">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 3 -->
-
-                                        <!-- Skill 4 -->
-                                        <div class="skill clearfix">
-                                            <h4>Graphic Design</h4>
-                                            <div class="skill-value">95%</div>
-                                        </div>
-                                        <div class="skill-container skill-4">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 4 -->
-
-                                        <!-- Skill 4-1 -->
-                                        <div class="skill clearfix">
-                                            <h4>Campaign Video</h4>
-                                            <div class="skill-value">80%</div>
-                                        </div>
-                                        <div class="skill-container skill-4-1">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 4-1 -->
-
-                                    </div>
-                                    <!-- End of Design Skills -->
-
-                                    <div class="white-space-10"></div>
-
-                                    <!-- Coding Skills -->
-                                    <div class="block-title">
-                                        <h3>Coding <span>Skills</span></h3>
-                                    </div>
-
-                                    <div class="skills-info skills-second-style">
-                                        <!-- Skill 5 -->
-                                        <div class="skill clearfix">
-                                            <h4>HTML</h4>
-                                            <div class="skill-value">100%</div>
-                                        </div>
-                                        <div class="skill-container skill-5">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 5 -->
-
-                                        <!-- Skill 6 -->
-                                        <div class="skill clearfix">
-                                            <h4>CSS</h4>
-                                            <div class="skill-value">95%</div>
-                                        </div>
-                                        <div class="skill-container skill-6">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 6 -->
-
-                                        <!-- Skill 7 -->
-                                        <div class="skill clearfix">
-                                            <h4>Javascript</h4>
-                                            <div class="skill-value">80%</div>
-                                        </div>
-                                        <div class="skill-container skill-7">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 7 -->
-
-                                        <!-- Skill 8 -->
-                                        <div class="skill clearfix">
-                                            <h4>Jquery</h4>
-                                            <div class="skill-value">80%</div>
-                                        </div>
-                                        <div class="skill-container skill-8">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 8 -->
-
-                                        <!-- Skill 9 -->
-                                        <div class="skill clearfix">
-                                            <h4>Git/Github</h4>
-                                            <div class="skill-value">70%</div>
-                                        </div>
-                                        <div class="skill-container skill-9">
-                                            <div class="skill-percentage"></div>
-                                        </div>
-                                        <!-- End of Skill 9 -->
-                                    </div>
-                                    <!-- End of Coding Skills -->
-
-                                    <div class="white-space-10"></div>
-
-                                    <!-- Knowledges -->
-                                    <div class="block-title">
-                                        <h3>Knowledges</h3>
-                                    </div>
-
-                                    <ul class="knowledges">
-                                        <li>Photoshop</li>
-                                        <li>Illustrator</li>
-                                        <li>Canva</li>
-                                        <li>Figma</li>
-                                        <li>Adobe XD</li>
-                                        <li>VS Code</li>
-                                        <li>Webstorm</li>
-                                        <li>Wordpress</li>
-                                        <li>Bootstrap</li>
-                                        <li>Setup Domain</li>
-                                        <li>Setup Hosting</li>
-                                        <li>Build Mind Map</li>
-                                    </ul>
-                                    <!-- End of Knowledges -->
-                                </div>
-                                <!-- End of Skills & Certificates -->
-                            </div>
-
-                            <div class="white-space-50"></div>
-
-                            <!-- Certificates -->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <div class="block-title">
-                                        <h3>Certificates</h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <!-- Certificate 1 -->
-                                <div class="col-xs-12 col-sm-6">
-                                    <div class="certificate-item clearfix">
-                                        <div class="certi-logo">
-                                            <img src="img/clients/hou.webp" alt="Hieudm">
-                                        </div>
-
-                                        <div class="certi-content">
-                                            <div class="certi-title">
-                                                <h4>International English B2 Certificate</h4>
-                                            </div>
-                                            <div class="certi-id">
-                                                <span>Hanoi Open University</span>
-                                            </div>
-                                            <div class="certi-date">
-                                                <span>19 April 2018</span>
-                                            </div>
-                                            <div class="certi-company">
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Certificate 1 -->
-
-                                <!-- Certificate 2 -->
-                                <div class="col-xs-12 col-sm-6">
-                                    <div class="certificate-item clearfix">
-                                        <div class="certi-logo">
-                                            <img src="img/clients/hou.webp" alt="Hieudm">
-                                        </div>
-
-                                        <div class="certi-content">
-                                            <div class="certi-title">
-                                                <h4>Bachelor's Degree in Corporate Finance</h4>
-                                            </div>
-                                            <div class="certi-id">
-                                                <span>Hanoi Open University</span>
-                                            </div>
-                                            <div class="certi-date">
-                                                <span>15 September 2019</span>
-                                            </div>
-                                            <div class="certi-company">
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Certificate 2 -->
-
-                            </div>
-                            <!-- End of Certificates -->
-                        </div>
-                    </section>
-                    <!-- End of Resume Subpage -->
-
-                    <!-- Portfolio Subpage -->
-                    <section data-id="portfolio" class="animated-section">
-                        <div class="page-title">
-                            <h2>Portfolio</h2>
-                        </div>
-
-                        <div class="section-content">
-
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12">
-                                    <!-- Portfolio Content -->
-                                    <div class="portfolio-content">
-
-                                        <ul class="portfolio-filters">
-                                            <li class="active">
-                                                <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
-                                            </li>
-                                            <li>
-                                                <a class="filter btn btn-sm btn-link"
-                                                    data-group="category_graphics">Graphics</a>
-                                            </li>
-                                            <li>
-                                                <a class="filter btn btn-sm btn-link"
-                                                    data-group="category_landing">Landing Page</a>
-                                            </li>
-                                            <li>
-                                                <a class="filter btn btn-sm btn-link"
-                                                    data-group="category_uiux">Ui/Ux</a>
-                                            </li>
-                                            <li>
-                                                <a class="filter btn btn-sm btn-link"
-                                                    data-group="category_web">Website</a>
-                                            </li>
-                                        </ul>
-
-                                        <!-- Portfolio Grid -->
-                                        <div class="portfolio-grid three-columns">
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img class="portfolio-preview" src="img/portfolio/full-10.webp" alt="Aurasia Travel website design" />
-                                                    <a class="lightbox" aria-label="View Aurasia Travel design" href="img/portfolio/full-10.webp"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Aurasia Travel</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img class="portfolio-preview" src="img/portfolio/full-11.webp" alt="isoCMS website design" />
-                                                    <a class="lightbox" aria-label="View isoCMS design" href="img/portfolio/full-11.webp"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">isoCMS</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img class="portfolio-preview" src="img/portfolio/full-12.webp" alt="Du lich Ninh Binh website design" />
-                                                    <a class="lightbox" aria-label="View Du lich Ninh Binh design" href="img/portfolio/full-12.webp"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Du lich Ninh Binh</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_uiux", "category_web"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/1.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-1.jpg"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Website Omnidigital</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-
-                                            <figure class="item lbimage"
-                                                data-groups='["category_all", "category_landing"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/2.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-2.jpg"></a>
-                                                </div>
-
-                                                <i class="fas fa-browser"></i>
-                                                <h4 class="name">Landing Page Ecomcare</h4>
-                                                <span class="category">Landing Page</span>
-                                            </figure>
-
-                                            <figure class="item lbimage"
-                                                data-groups='["category_all", "category_graphics"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/3.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-3.jpg"></a>
-                                                </div>
-
-                                                <i class="fas fa-images"></i>
-                                                <h4 class="name">Banner Shopee</h4>
-                                                <span class="category">Graphics</span>
-                                            </figure>
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/4.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-4.jpg"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Website Chichifood</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-
-                                            <figure class="item lbimage"
-                                                data-groups='["category_all", "category_web", "category_graphics", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/5.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-5.webp"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Website KPIM Academy</h4>
-                                                <span class="category">Ui/Ux + Website + Graphics</span>
-                                            </figure>
-
-                                            <figure class="item lbimage"
-                                                data-groups='["category_all", "category_landing", "category_graphics"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/6.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-6.jpg"></a>
-                                                </div>
-
-                                                <i class="fas fa-browser"></i>
-                                                <h4 class="name">Landing Page Nhanh.vn</h4>
-                                                <span class="category">Landing Page + Graphics</span>
-                                            </figure>
-
-                                            <figure class="item lbimage"
-                                                data-groups='["category_all", "category_web", "category_graphics", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/7.jpg" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-7.jpg"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Website Computer Shop</h4>
-                                                <span class="category">Ui/Ux + Website + Graphics</span>
-                                            </figure>
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/9.webp" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-9.webp"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Quoc Anh Pharmacy</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-
-                                            <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="img/portfolio/8.webp" alt="Hieudm" title="Hieudm" />
-                                                    <a class="lightbox" title="" href="img/portfolio/full-8.webp"></a>
-                                                </div>
-
-                                                <i class="fas fa-code"></i>
-                                                <h4 class="name">Website Lebro</h4>
-                                                <span class="category">Ui/Ux + Website</span>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <!-- End of Portfolio Content -->
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- End of Portfolio Subpage -->
-
-                    <!-- Contact Subpage -->
-                    <section data-id="contact" class="animated-section">
-                        <div class="page-title">
-                            <h2>Contact</h2>
-                        </div>
-
-                        <div class="section-content">
-
-                            <div class="row">
-                                <!-- Contact Info -->
-                                <div class="col-xs-12 col-sm-4">
-                                    <div class="lm-info-block gray-default">
-                                        <i class="fal fa-map-marker-alt"></i>
-                                        <h4>Hanoi City, Vietnam</h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-
-                                    <div class="lm-info-block gray-default">
-                                        <i class="fal fa-mobile"></i>
-                                        <h4><a href="tel:84388814544">+84 3888 14544</a></h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-
-                                    <div class="lm-info-block gray-default">
-                                        <i class="fal fa-envelope"></i>
-                                        <h4><a href="mailto:hieunobii2809@gmail.com">hieunobii2809@gmail.com</a></h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-
-                                    <div class="lm-info-block gray-default">
-                                        <i class="fal fa-check-circle"></i>
-                                        <h4>Freelance Available</h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-
-
-                                </div>
-                                <!-- End of Contact Info -->
-
-                                <!-- Contact Form -->
-                                <div class="col-xs-12 col-sm-8">
-                                    <div id="map" class="map">
-                                        <div class="lmpixels-map">
-                                            <iframe
-                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.84023584044226!2d105.82861899490266!3d20.97484109747029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad42935c818b%3A0x1e0fa7ba02ae09a1!2zVHLhuqFtIGLGoW0gaOG7kyDEkOG7i25oIEPDtG5n!5e0!3m2!1svi!2s!4v1721445011814!5m2!1svi!2s"
-                                                frameborder="0" scrolling="no" marginheight="0"
-                                                marginwidth="0"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="block-title">
-                                        <h3>How Can I <span>Help You?</span></h3>
-                                    </div>
-
-                                    <form id="contact_form" class="contact-form"
-                                        onsubmit="emailSend(); reset(); return false;">
-
-                                        <div class="messages"></div>
-
-                                        <div class="controls two-columns">
-                                            <div class="fields clearfix">
-                                                <div class="left-column">
-                                                    <div class="form-group form-group-with-icon">
-                                                        <input id="form_name" type="text" name="name"
-                                                            class="form-control" placeholder="" required="required"
-                                                            data-error="Name is required.">
-                                                        <label>Full Name</label>
-                                                        <div class="form-control-border"></div>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-
-                                                    <div class="form-group form-group-with-icon">
-                                                        <input id="form_email" type="email" name="email"
-                                                            class="form-control" placeholder="" required="required"
-                                                            data-error="Valid email is required.">
-                                                        <label>Email Address</label>
-                                                        <div class="form-control-border"></div>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-
-                                                    <div class="form-group form-group-with-icon">
-                                                        <input id="form_phone" type="tel" name="phone"
-                                                            class="form-control" placeholder="" required="required"
-                                                            data-error="Subject is required.">
-                                                        <label>Phone Number</label>
-                                                        <div class="form-control-border"></div>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="right-column">
-                                                    <div class="form-group form-group-with-icon">
-                                                        <textarea id="form_message" name="message" class="form-control"
-                                                            placeholder="" rows="7" required="required"
-                                                            data-error="Please, leave me a message."></textarea>
-                                                        <label>Message</label>
-                                                        <div class="form-control-border"></div>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="g-recaptcha"
-                                                data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
-
-                                            <input type="submit" class="button btn-send" value="Send message">
-                                        </div>
-                                    </form>
-                                </div>
-                                <!-- End of Contact Form -->
-                            </div>
-
-                        </div>
-                    </section>
-                    <!-- End of Contact Subpage -->
-                </div>
-            </div>
-
+                                </symbol><symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></symbol>
+<symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-4H14V7c0-1 .5-2 2-2h2V1.5A24 24 0 0 0 15 1c-3 0-5 2-5 5v3H7v4h3v8Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".9" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1.5-3.3 1.5 1.5 0 0 1 1.2-2.5h2A4.4 4.4 0 0 0 21 11 9 9 0 0 0 12 3Z"/><circle cx="7" cy="10" r="1"/><circle cx="10" cy="6.8" r="1"/><circle cx="15" cy="7" r="1"/><circle cx="18" cy="11" r="1"/></symbol>
+<symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 8h18M9 8v13m4-9h4m-4 4h4"/></symbol>
+<symbol id="i-browser" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 9h20M6 6.5h.01M9 6.5h.01m0 7 3 3 3-3"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="m8 3 3 5-3 3a15 15 0 0 0 5 5l3-3 5 3c-1 5-4 6-9 3A23 23 0 0 1 5 12C2 7 3 4 8 3Z"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6h14M5 18h14"/></symbol>
+<symbol id="i-cursor" viewBox="0 0 24 24"><path d="m4 3 7 18 3-7 7-3Z"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 21v-2a6 6 0 0 1 12 0v2M16 5a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 4v2"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></symbol><symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol></defs></svg>
+<noscript><div class="noscript-note">Enable JavaScript to explore the tabbed portfolio, or <a href="mailto:hieunobii2809@gmail.com">email Hieu directly</a> · <a href="img/CV-DMH-2026.pdf" download="Hieu-Minh-Duong-CV-2026.pdf">Download CV</a>.</div></noscript>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="workspace">
+<aside class="sidebar" aria-label="Profile">
+<a class="wordmark" href="#home" aria-label="Hieudm home">hieu<span>dm</span><sup>®</sup></a>
+<a class="mobile-cv" href="img/CV-DMH-2026.pdf" download="Hieu-Minh-Duong-CV-2026.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg><span>Résumé</span></a><div class="profile"><div class="avatar"><img src="img/avatar.jpg" alt="Portrait of Hieu Minh Duong" width="120" height="120"></div><h2>Hieu Minh Duong<span>Designer & developer</span></h2><p class="location"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Hanoi, Vietnam <span>GMT+7</span></p></div>
+<div class="nav-caption">EXPLORE <span>01 — 05</span></div>
+<nav class="tabs" role="tablist" aria-label="Portfolio sections" aria-orientation="vertical">
+<button id="tab-home" aria-label="Overview" role="tab" aria-controls="home" aria-selected="true" data-tab="home"><span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg></span> <span class="desktop-tab">Overview</span><span class="mobile-tab">Home</span> <span class="nav-number">01</span></button>
+<button id="tab-about-me" aria-label="About me" role="tab" aria-controls="about-me" aria-selected="false" tabindex="-1" data-tab="about-me"><span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="#i-user"></use></svg></span> <span class="desktop-tab">About me</span><span class="mobile-tab">About</span> <span class="nav-number">02</span></button>
+<button id="tab-resume" aria-label="Experience" role="tab" aria-controls="resume" aria-selected="false" tabindex="-1" data-tab="resume"><span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="#i-work"></use></svg></span> <span class="desktop-tab">Experience</span><span class="mobile-tab">Resume</span> <span class="nav-number">03</span></button>
+<button id="tab-portfolio" aria-label="Selected work" role="tab" aria-controls="portfolio" aria-selected="false" tabindex="-1" data-tab="portfolio"><span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="#i-grid"></use></svg></span> <span class="desktop-tab">Selected work</span><span class="mobile-tab">Work</span> <span class="nav-number">04</span></button>
+<button id="tab-contact" aria-label="Let's talk" role="tab" aria-controls="contact" aria-selected="false" tabindex="-1" data-tab="contact"><span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg></span> <span class="desktop-tab">Let's talk</span><span class="mobile-tab">Contact</span> <span class="nav-number">05</span></button>
+</nav>
+<div class="sidebar-bottom"><a class="cv-link" href="img/CV-DMH-2026.pdf" download="Hieu-Minh-Duong-CV-2026.pdf" target="_blank" rel="noopener"><span class="download-copy"><span class="download-eyebrow">TAKE A CLOSER LOOK</span><strong>Download résumé</strong></span><span class="download-icon"><svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg></span></a><div class="socials"><a href="https://www.facebook.com/DuongMinhHieuu" target="_blank" rel="noopener"><svg class="icon social-icon" aria-hidden="true"><use href="#i-facebook"></use></svg><span>Facebook</span></a><a href="https://www.instagram.com/hieunobii" target="_blank" rel="noopener"><svg class="icon social-icon" aria-hidden="true"><use href="#i-instagram"></use></svg><span>Instagram</span></a><a href="https://zalo.me/0388814544" target="_blank" rel="noopener"><svg class="icon social-icon" aria-hidden="true"><use href="#i-zalo"></use></svg><span>Zalo</span></a></div><p class="copyright">© <span id="year">2026</span> Hieudm. Crafted with intention.</p></div>
+</aside>
+<div class="main-shell">
+<header class="topbar"><div><span class="breadcrumb">PORTFOLIO</span><span class="slash">/</span><span id="current-view">Overview</span></div><div class="topbar-tools"><div class="language-control">
+<select id="language-select" hidden tabindex="-1" aria-hidden="true"><option value="en">EN</option><option value="vi">VI</option><option value="ja">日本語</option></select>
+<button id="language-toggle" type="button" aria-label="Language" aria-haspopup="listbox" aria-expanded="false" aria-controls="language-menu"><svg class="icon" aria-hidden="true"><use href="#i-globe"></use></svg><span data-language-label>EN</span><svg class="icon language-chevron" aria-hidden="true"><use href="#i-chevron"></use></svg></button>
+<div id="language-menu" class="language-menu" role="listbox" aria-label="Language" hidden>
+<button id="language-en" type="button" role="option" data-language="en" lang="en" aria-selected="true" tabindex="-1"><span>English</span><span class="language-code">EN</span><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg></button>
+<button id="language-vi" type="button" role="option" data-language="vi" lang="vi" aria-selected="false" tabindex="-1"><span>Tiếng Việt</span><span class="language-code">VI</span><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg></button>
+<button id="language-ja" type="button" role="option" data-language="ja" lang="ja" aria-selected="false" tabindex="-1"><span>日本語</span><span class="language-code">JA</span><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg></button>
+</div></div><a class="availability" href="#contact"><span class="status-dot"></span> Available for freelance <span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a></div></header>
+<main id="main" tabindex="-1">
+<section id="home" class="panel home-panel" role="tabpanel" aria-labelledby="tab-home" tabindex="0">
+<div class="hero-copy"><p class="eyebrow"><span></span> INDEPENDENT DESIGNER & FRONTEND DEVELOPER</p><h1 data-i18n-html="hero.title"><span>Design beyond</span><em>the ordinary.</em><span>Built for people.</span></h1><p class="hero-description">I'm Hieu, a designer who codes. I turn complex ideas into intuitive digital experiences — from the first sketch to the final pixel.</p><div class="hero-actions"><a class="button primary" href="#portfolio">Explore my work <span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a><a class="text-link" href="#contact">Start a conversation <span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a></div><div class="hero-meta"><span>UI/UX DESIGN</span><span>FRONTEND DEVELOPMENT</span><span>CREATIVE DIRECTION</span></div></div>
+<div class="hero-visual sphere-console" aria-label="Interactive three-dimensional particle sphere">
+<div class="canvas-top"><span class="canvas-label"><span class="status-dot"></span> THE CREATIVE ENGINE</span><span class="canvas-edition">REALTIME / 3D</span></div>
+<div class="creative-stage sphere-stage">
+<canvas id="tech-sphere" tabindex="0" role="img" aria-label="A luminous 3D technology sphere. Drag to rotate, use arrow keys to turn, or click or press Enter to send a ripple."></canvas>
+<div class="sphere-hud hud-top"><span>DESIGN × ENGINEERING</span><span class="hud-ticks" aria-hidden="true"></span></div>
+<div class="sphere-hud hud-bottom"><span>01 / INTERACTIVE MATTER</span><svg class="icon" aria-hidden="true"><use href="#i-cursor"></use></svg></div>
+</div>
+<div class="canvas-bottom"><span id="canvas-caption">Drag to rotate. Click to make waves.</span><span class="engine-status"><span class="status-dot"></span> LIVE SYSTEM</span></div>
+</div>
+<div class="home-bottom"><div class="metric"><strong>05<span>+</span></strong><span>Years of experience</span></div><div class="metric"><strong>120<span>+</span></strong><span>Happy clients</span></div><div class="metric"><strong>12</strong><span>Selected projects</span></div><a class="featured-teaser" href="#portfolio"><img src="img/portfolio/1.jpg" alt="Omnidigital website preview" width="100" height="70"><div><span>FROM THE COLLECTION</span><strong>Ideas made tangible</strong></div><span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a></div>
+</section>
+<section id="about-me" role="tabpanel" aria-labelledby="tab-about-me" tabindex="0" hidden class="panel">
+        <div class="page-title">
+        <h1 data-i18n-html="about.title">A little <span>about me.</span></h1><p>Connecting creative thinking with the craft of development.</p>
         </div>
-    </div>
-
-    <script data-cfasync="false" src="email-decode.min.js"></script>
-    <script src="jquery-2.1.3.min.js"></script>
-    <script src="hieudm.custom.js"></script>
-    <script src="animating.js"></script>
-
-    <script src="imagesloaded.pkgd.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-
-    <script src='perfect-scrollbar.min.js'></script>
-    <script src='jquery.shuffle.min.js'></script>
-    <script src='masonry.pkgd.min.js'></script>
-    <script src='owl.carousel.min.js'></script>
-    <script src="jquery.magnific-popup.min.js"></script>
-
-    <!-- <script src="validator.js"></script> -->
-    <script src="main.js"></script>
-    <script src="beacon.js"></script>
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="contact-form.js"></script>
-</body>
-
-</html>
+        <div class="section-content">
+        <div class="row">
+        <div class="col-xs-12 col-sm-7">
+        <p>Hello, dear recruiter. My name is Hieu. I have experience as a graphics designer,
+        the thinking ability of a UI/UX designer, the skills to code pixel-perfect
+        interfaces as a frontend developer, and I have been passionately working in this
+        field for 5 years. I hope the recruiter can contact me, my contact information
+        is clearly stated in the "Contact" section.</p>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+        <div class="info-list">
+        <ul>
+        <li>
+        <span class="title">Age</span>
+        <span class="value">Born in 1996</span>
+        </li>
+        <li>
+        <span class="title">Country</span>
+        <span class="value">Vietnam, Hanoi</span>
+        </li>
+        <li>
+        <span class="title">Address</span>
+        <span class="value">99/110 Dinh Cong Ha Street, Hoang Mai
+        District</span>
+        </li>
+        <li>
+        <span class="title">E-mail</span>
+        <span class="value"><a href="mailto:hieunobii2809@gmail.com"
+        class="__cf_email__">hieunobii2809@gmail.com</a></span>
+        </li>
+        <li>
+        <span class="title">Phone</span>
+        <span class="value">+84 3888 14544</span>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="white-space-50"></div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="block-title">
+        <h3 data-i18n="What I Do">What <span>I Do</span></h3>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-6">
+        <div class="col-inner">
+        <div class="info-list-w-icon">
+        <div class="info-block-w-icon"><svg class="icon" aria-hidden="true"><use href="#i-palette"></use></svg>
+        <div class="ci-text">
+        <h4>Graphic Design</h4>
+        <p>Design 2D e-commerce banners, design brand logos, handle and edit
+        images, product images at a proficient level, and create short
+        graphic advertisement videos for digital platforms.</p>
+        </div>
+        </div>
+        <div class="info-block-w-icon"><svg class="icon" aria-hidden="true"><use href="#i-layout"></use></svg>
+        <div class="ci-text">
+        <h4>UI/UX Design</h4>
+        <p>Design websites, landing pages, and apps using tools like Figma
+        or Adobe XD, with a modern design mindset, always prioritizing
+        user experience when creating designs.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+        <div class="col-inner">
+        <div class="info-list-w-icon">
+        <div class="info-block-w-icon"><svg class="icon" aria-hidden="true"><use href="#i-browser"></use></svg>
+        <div class="ci-text">
+        <h4>Landing Page Design</h4>
+        <p>Build layout landing pages using various platforms such as:
+        Ladipage, 1Landing, Wordpress Flatsome/Elementor, as well as
+        coding pure responsive interfaces.</p>
+        </div>
+        </div>
+        <div class="info-block-w-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"></use></svg>
+        <div class="ci-text">
+        <h4>Frontend Developer</h4>
+        <p>Design from service models and introductions to sales models
+        according to requirements, ensuring pixel-perfect accuracy
+        compared to the design draft. Primary languages used include
+        HTML, CSS, JavaScript, and jQuery.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="white-space-30"></div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="block-title">
+        <h3 data-i18n="Testimonials">Testimonials</h3>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="testimonials">
+        <div class="testimonial">
+        <div class="img">
+        <img src="img/testimonials/testimonial-1.jpg" alt="Hieudm">
+        </div>
+        <div class="text">
+        <p>"Hieu is always ready to take on tasks beyond his position when
+        necessary, consistently delivering work that exceeds expectations."
+        </p>
+        </div>
+        <div class="author-info">
+        <h4 class="author">Vinh Nguyen</h4>
+        <h5 class="company">Project Manager</h5>
+        <div class="icon">
+        </div>
+        </div>
+        </div>
+        <div class="testimonial">
+        <div class="img">
+        <img src="img/testimonials/testimonial-2.jpg" alt="Hieudm">
+        </div>
+        <div class="text">
+        <p>"Hieu works very hard and takes the initiative to learn new knowledge
+        outside of working hours. I highly appreciate Hieu's creativity."
+        </p>
+        </div>
+        <div class="author-info">
+        <h4 class="author">Ngoc Vu</h4>
+        <h5 class="company">Project Leader</h5>
+        <div class="icon">
+        </div>
+        </div>
+        </div>
+        <div class="testimonial">
+        <div class="img">
+        <img src="img/testimonials/testimonial-3.jpg" alt="Hieudm">
+        </div>
+        <div class="text">
+        <p>"Exhibits a professional work attitude, does not avoid
+        responsibility, and is always willing to assist and share experience
+        with colleagues."</p>
+        </div>
+        <div class="author-info">
+        <h4 class="author">Bao Hoang</h4>
+        <h5 class="company">Company CEO</h5>
+        <div class="icon">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="white-space-50"></div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="block-title">
+        <h3 data-i18n="Clients">Clients</h3>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="clients">
+        <div class="client-block"><img src="img/clients/client-1.webp" alt="Logo"></div>
+        <div class="client-block"><img src="img/clients/client-2.webp" alt="Hieudm"></div>
+        <div class="client-block"><img src="img/clients/client-3.webp" alt="Hieudm"></div>
+        <div class="client-block"><img src="img/clients/client-4.webp" alt="Hieudm"></div>
+        <div class="client-block"><img src="img/clients/client-5.webp" alt="Hieudm"></div>
+        <div class="client-block"><img src="img/clients/client-6.webp" alt="Hieudm"></div>
+        <div class="client-block"><img src="img/clients/client-7.webp" alt="Hieudm"></div>
+        </div>
+        </div>
+        </div>
+        <div class="white-space-50"></div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="block-title">
+        <h3 data-i18n="Fun Facts">Fun <span>Facts</span></h3>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-4">
+        <div class="fun-fact gray-default">
+        <h4><svg class="icon" aria-hidden="true"><use href="#i-users"></use></svg>Happy Clients</h4>
+        <span class="fun-fact-block-value">120+</span>
+        <span class="fun-fact-block-text"></span>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+        <div class="fun-fact gray-default">
+        <h4><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>Experience Years</h4>
+        <span class="fun-fact-block-value">5</span>
+        <span class="fun-fact-block-text"></span>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 ">
+        <div class="fun-fact gray-default">
+        <h4><svg class="icon" aria-hidden="true"><use href="#i-award"></use></svg>Awards Won</h4>
+        <span class="fun-fact-block-value">7</span>
+        <span class="fun-fact-block-text"></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+<section id="resume" role="tabpanel" aria-labelledby="tab-resume" tabindex="0" hidden class="panel">
+        <div class="page-title">
+        <h1 data-i18n-html="resume.title">Experience & expertise</h1><p>The journey, the skills, and the tools behind my work.</p><a class="button resume-download" href="img/CV-DMH-2026.pdf" download="Hieu-Minh-Duong-CV-2026.pdf" target="_blank" rel="noopener"><span>Download full résumé</span><span class="download-icon"><svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg></span></a>
+        </div>
+        <div class="section-content">
+        <div class="row">
+        <div class="col-xs-12 col-sm-7">
+        <div class="block-title">
+        <h3 data-i18n="Education">Education</h3>
+        </div>
+        <div class="timeline timeline-second-style clearfix">
+        <div class="timeline-item clearfix">
+        <div class="left-part">
+        <h5 class="item-period">2012-2015</h5>
+        <span class="item-company">Dong Da High School - Hanoi</span>
+        </div>
+        <div class="right-part">
+        <h4 class="item-title">Student</h4>
+        <p>An excellent student in computer science and mathematics, who has won
+        awards in the city's math competition.</p>
+        </div>
+        </div>
+        <div class="timeline-item clearfix">
+        <div class="left-part">
+        <h5 class="item-period">2015-2019</h5>
+        <span class="item-company">Hanoi Open University</span>
+        </div>
+        <div class="right-part">
+        <h4 class="item-title">Finance Bachelor</h4>
+        <p>A distinguished student actively participating in scientific research
+        programs and voluntary blood donation activities.</p>
+        </div>
+        </div>
+        </div>
+        <div class="white-space-50"></div>
+        <div class="block-title">
+        <h3 data-i18n="Experience">Experience</h3>
+        </div>
+        <div class="timeline timeline-second-style clearfix">
+        <div class="timeline-item clearfix">
+        <div class="left-part">
+        <h5 class="item-period">7/2023 - Current</h5>
+        <span class="item-company">Ecomcare</span>
+        </div>
+        <div class="right-part">
+        <h4 class="item-title">Landing, Frontend Developer</h4>
+        <p>Design a theme repository of interfaces for websites and landing
+        pages, and also undertook projects to customize website interfaces.
+        </p>
+        </div>
+        </div>
+        <div class="timeline-item clearfix">
+        <div class="left-part">
+        <h5 class="item-period">6/2022 - 7/2023</h5>
+        <span class="item-company">Ezisolutions</span>
+        </div>
+        <div class="right-part">
+        <h4 class="item-title">Design 2D, Frontend Dev</h4>
+        <p>Design campaign banners, code interfaces by using Html, Css,
+        Javascript for both my company and its clients.</p>
+        </div>
+        </div>
+        <div class="timeline-item clearfix">
+        <div class="left-part">
+        <h5 class="item-period">1/2021 - 6/2022</h5>
+        <span class="item-company">Omnidigital</span>
+        </div>
+        <div class="right-part">
+        <h4 class="item-title">Landing, Web Design</h4>
+        <p>Design drag-and-drop landing pages and layouts for websites and
+        landing pages. Additionally, I create campaign banners for clients.
+        </p>
+        </div>
+        </div>
+        <div class="timeline-item clearfix">
+        <div class="left-part">
+        <h5 class="item-period">12/2018 - 1/2021</h5>
+        <span class="item-company">Nhanh.vn (Momo)</span>
+        </div>
+        <div class="right-part">
+        <h4 class="item-title">Graphic, Ui Designer</h4>
+        <p>Design brand logos, campaign banners, landing page interfaces, and
+        website interfaces across various digital platforms.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+        <div class="block-title">
+        <h3 data-i18n="Design Skills">Design <span>Skills</span></h3>
+        </div>
+        <div class="skills-info skills-second-style">
+        <div class="skill clearfix">
+        <h4>Ui/Ux Design</h4>
+        <div class="skill-value">95%</div>
+        </div>
+        <div class="skill-container skill-1">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Landing Page Design</h4>
+        <div class="skill-value">100%</div>
+        </div>
+        <div class="skill-container skill-2">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Logo Design</h4>
+        <div class="skill-value">80%</div>
+        </div>
+        <div class="skill-container skill-3">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Graphic Design</h4>
+        <div class="skill-value">95%</div>
+        </div>
+        <div class="skill-container skill-4">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Campaign Video</h4>
+        <div class="skill-value">80%</div>
+        </div>
+        <div class="skill-container skill-4-1">
+        <div class="skill-percentage"></div>
+        </div>
+        </div>
+        <div class="white-space-10"></div>
+        <div class="block-title">
+        <h3 data-i18n="Coding Skills">Coding <span>Skills</span></h3>
+        </div>
+        <div class="skills-info skills-second-style">
+        <div class="skill clearfix">
+        <h4>HTML</h4>
+        <div class="skill-value">100%</div>
+        </div>
+        <div class="skill-container skill-5">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>CSS</h4>
+        <div class="skill-value">95%</div>
+        </div>
+        <div class="skill-container skill-6">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Javascript</h4>
+        <div class="skill-value">80%</div>
+        </div>
+        <div class="skill-container skill-7">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Jquery</h4>
+        <div class="skill-value">80%</div>
+        </div>
+        <div class="skill-container skill-8">
+        <div class="skill-percentage"></div>
+        </div>
+        <div class="skill clearfix">
+        <h4>Git/Github</h4>
+        <div class="skill-value">70%</div>
+        </div>
+        <div class="skill-container skill-9">
+        <div class="skill-percentage"></div>
+        </div>
+        </div>
+        <div class="white-space-10"></div>
+        <div class="block-title">
+        <h3 data-i18n="Knowledges">Knowledges</h3>
+        </div>
+        <ul class="knowledges">
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Canva</li>
+        <li>Figma</li>
+        <li>Adobe XD</li>
+        <li>VS Code</li>
+        <li>Webstorm</li>
+        <li>Wordpress</li>
+        <li>Bootstrap</li>
+        <li>Setup Domain</li>
+        <li>Setup Hosting</li>
+        <li>Build Mind Map</li>
+        </ul>
+        </div>
+        </div>
+        <div class="white-space-50"></div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="block-title">
+        <h3 data-i18n="Certificates">Certificates</h3>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-6">
+        <div class="certificate-item clearfix">
+        <div class="certi-logo">
+        <img src="img/clients/hou.webp" alt="Hieudm">
+        </div>
+        <div class="certi-content">
+        <div class="certi-title">
+        <h4>International English B2 Certificate</h4>
+        </div>
+        <div class="certi-id">
+        <span>Hanoi Open University</span>
+        </div>
+        <div class="certi-date">
+        <span>19 April 2018</span>
+        </div>
+        <div class="certi-company">
+        <span></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+        <div class="certificate-item clearfix">
+        <div class="certi-logo">
+        <img src="img/clients/hou.webp" alt="Hieudm">
+        </div>
+        <div class="certi-content">
+        <div class="certi-title">
+        <h4>Bachelor's Degree in Corporate Finance</h4>
+        </div>
+        <div class="certi-id">
+        <span>Hanoi Open University</span>
+        </div>
+        <div class="certi-date">
+        <span>15 September 2019</span>
+        </div>
+        <div class="certi-company">
+        <span></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+<section id="portfolio" role="tabpanel" aria-labelledby="tab-portfolio" tabindex="0" hidden class="panel">
+        <div class="page-title">
+        <h1 data-i18n-html="work.title">Selected <span>work.</span></h1><p>A collection of websites, landing pages, and visual identities. Explore a category or open a project for a closer look.</p>
+        </div>
+        <div class="section-content">
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+        <div class="portfolio-content">
+        <ul class="portfolio-filters">
+        <li class="active">
+        <button type="button" data-group="category_all" aria-pressed="true">All</button>
+        </li>
+        <li>
+        <button type="button" data-group="category_graphics" aria-pressed="false">Graphics</button>
+        </li>
+        <li>
+        <button type="button" data-group="category_landing" aria-pressed="false">Landing Page</button>
+        </li>
+        <li>
+        <button type="button" data-group="category_uiux" aria-pressed="false">Ui/Ux</button>
+        </li>
+        <li>
+        <button type="button" data-group="category_web" aria-pressed="false">Website</button>
+        </li>
+        </ul>
+        <div class="portfolio-grid three-columns">
+        <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img class="portfolio-preview" src="img/portfolio/full-10.webp" alt="Aurasia Travel website design" />
+        <a class="lightbox" aria-label="View Aurasia Travel design" href="img/portfolio/full-10.webp"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Aurasia Travel</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img class="portfolio-preview" src="img/portfolio/full-11.webp" alt="isoCMS website design" />
+        <a class="lightbox" aria-label="View isoCMS design" href="img/portfolio/full-11.webp"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">isoCMS</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img class="portfolio-preview" src="img/portfolio/full-12.webp" alt="Du lich Ninh Binh website design" />
+        <a class="lightbox" aria-label="View Du lich Ninh Binh design" href="img/portfolio/full-12.webp"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Du lich Ninh Binh</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        <figure class="item lbimage" data-groups='["category_all", "category_uiux", "category_web"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/1.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-1.jpg"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Website Omnidigital</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        <figure class="item lbimage"
+        data-groups='["category_all", "category_landing"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/2.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-2.jpg"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Landing Page Ecomcare</h4>
+        <span class="category">Landing Page</span>
+        </figure>
+        <figure class="item lbimage"
+        data-groups='["category_all", "category_graphics"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/3.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-3.jpg"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Banner Shopee</h4>
+        <span class="category">Graphics</span>
+        </figure>
+        <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/4.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-4.jpg"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Website Chichifood</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        <figure class="item lbimage"
+        data-groups='["category_all", "category_web", "category_graphics", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/5.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-5.webp"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Website KPIM Academy</h4>
+        <span class="category">Ui/Ux + Website + Graphics</span>
+        </figure>
+        <figure class="item lbimage"
+        data-groups='["category_all", "category_landing", "category_graphics"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/6.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-6.jpg"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Landing Page Nhanh.vn</h4>
+        <span class="category">Landing Page + Graphics</span>
+        </figure>
+        <figure class="item lbimage"
+        data-groups='["category_all", "category_web", "category_graphics", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/7.jpg" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-7.jpg"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Website Computer Shop</h4>
+        <span class="category">Ui/Ux + Website + Graphics</span>
+        </figure>
+        <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/9.webp" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-9.webp"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Quoc Anh Pharmacy</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        <figure class="item lbimage" data-groups='["category_all", "category_web", "category_uiux"]'>
+        <div class="portfolio-item-img">
+        <img src="img/portfolio/8.webp" alt="Hieudm" title="Hieudm" />
+        <a class="lightbox" title="" href="img/portfolio/full-8.webp"><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <h4 class="name">Website Lebro</h4>
+        <span class="category">Ui/Ux + Website</span>
+        </figure>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+<section id="contact" class="panel" role="tabpanel" aria-labelledby="tab-contact" tabindex="0" hidden>
+<div class="page-title"><p class="eyebrow">05 / CONTACT</p><h1 data-i18n-html="contact.title">Good work starts<br>with a <em>conversation.</em></h1><p>Have an idea, a project, or a role in mind? I'd love to hear about it.</p></div>
+<div class="contact-layout"><div class="contact-details"><span class="availability"><span class="status-dot"></span> Available for freelance</span><h3>Let's make something<br>worth putting out there.</h3><a class="contact-email" href="mailto:hieunobii2809@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>hieunobii2809@gmail.com </a><a href="tel:+84388814544"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>+84 3888 14544 </a><div class="address-card"><span>BASED IN</span><strong>Hanoi City, Vietnam</strong><p>99/110 Dinh Cong Ha Street,<br>Hoang Mai District</p><a href="https://www.google.com/maps/search/?api=1&query=99%2F110+Dinh+Cong+Ha+Hanoi" target="_blank" rel="noopener">View on Google Maps <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></div><p class="contact-note">Prefer another channel? Find me on <a href="https://zalo.me/0388814544" target="_blank" rel="noopener"><svg class="icon social-icon" aria-hidden="true"><use href="#i-zalo"></use></svg><span>Zalo</span></a></p><div class="contact-socials"><a href="https://www.facebook.com/DuongMinhHieuu" target="_blank" rel="noopener"><svg class="icon social-icon" aria-hidden="true"><use href="#i-facebook"></use></svg><span>Facebook</span></a><a href="https://www.instagram.com/hieunobii" target="_blank" rel="noopener"><svg class="icon social-icon" aria-hidden="true"><use href="#i-instagram"></use></svg><span>Instagram</span></a></div></div>
+<form id="contact-form" action="https://formsubmit.co/hieunobii2809@gmail.com" method="POST"><h3>Tell me about your project</h3><div class="form-row"><label>Your name <span>*</span><input name="name" autocomplete="name" placeholder="How should I call you?" required maxlength="100"></label><label>Email address <span>*</span><input name="email" type="email" autocomplete="email" placeholder="you@company.com" required maxlength="254"></label></div><label>Phone number <span class="optional">(optional)</span><input name="phone" type="tel" autocomplete="tel" placeholder="+84" maxlength="40"></label><label>What's on your mind? <span>*</span><textarea name="message" rows="5" placeholder="A little about your project, timeline, and what you need…" required minlength="10" maxlength="5000"></textarea></label><input type="hidden" name="_subject" value="New project enquiry — Hieudm Portfolio"><input type="hidden" name="_template" value="table"><div class="honeypot" aria-hidden="true"><label>Leave this empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div><p class="form-note">Your details are used to reply to your enquiry. Messages are processed by FormSubmit.</p><button class="button primary" type="submit">Send message <span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span></button><p id="form-status" role="status" aria-live="polite"></p></form></div>
+</section>
+</main>
+<footer class="footer"><span>INDEPENDENT DESIGNER & DEVELOPER</span><span>Made with care. Built to connect. <span class="mint"><svg class="icon" aria-hidden="true"><use href="#i-spark"></use></svg></span></span></footer>
+</div></div>
+<dialog id="project-dialog" aria-labelledby="project-title"><div class="project-viewer">
+<div class="dialog-bar"><div><span class="eyebrow">PROJECT PREVIEW</span><h2 id="project-title"></h2></div><button id="close-dialog" class="icon-button" aria-label="Close project preview"><svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg></button></div>
+<div class="dialog-body" data-image-state="loading"><p id="preview-status" role="status" aria-live="polite"></p><img id="project-image" alt="" loading="eager" decoding="async"></div>
+<div class="dialog-footer"><span class="dialog-hint">Press Esc to close</span><a id="project-original" target="_blank" rel="noopener">Open full image <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></div>
+</div></dialog>
+</body></html>
